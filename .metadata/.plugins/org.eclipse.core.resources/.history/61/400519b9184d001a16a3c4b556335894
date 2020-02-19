@@ -1,0 +1,26 @@
+package com.crm.qa.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
+import com.crm.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+
+	WebDriver driver = new ChromeDriver();
+		
+	//page factory
+	@FindBy(name="email")
+	WebElement username;
+	@FindBy(name="password")
+	WebElement password;
+		
+	@FindBy(xpath = "//div[contains(text(),'Login']")
+	WebElement Login;
+	
+	
+	
+	
+}

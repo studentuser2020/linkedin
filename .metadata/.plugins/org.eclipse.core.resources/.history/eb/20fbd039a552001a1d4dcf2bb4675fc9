@@ -1,0 +1,16 @@
+package Jenkins.JenkinsTest;
+
+public class MyJenkins {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  System.out.println("small jenkins test");
+		  System.out.println("small jenkins test");
+	}
+
+	public void justtest() {
+		  System.out.println("small jenkins test");
+		  System.out.println("small jenkins test");
+	}
+	
+}

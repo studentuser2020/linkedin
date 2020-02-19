@@ -1,0 +1,13 @@
+package Jenkins.JenkinsTest;
+
+public class FizzBuzz {
+
+    public void play(int number) {
+
+System.out.println("small jenkins test");
+System.out.println("small jenkins test");
+System.out.println("small jenkins test");
+System.out.println("small jenkins test");
+
+    }
+}

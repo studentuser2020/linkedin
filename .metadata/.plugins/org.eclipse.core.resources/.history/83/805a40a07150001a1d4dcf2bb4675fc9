@@ -1,0 +1,13 @@
+package jenkinstest.jenkins;
+
+import org.testng.annotations.Test;
+
+public class JenkinsTest {
+
+	@Test
+	public  void test1() {
+		// TODO Auto-generated method stub
+		System.out.println("small test");
+	}
+
+}

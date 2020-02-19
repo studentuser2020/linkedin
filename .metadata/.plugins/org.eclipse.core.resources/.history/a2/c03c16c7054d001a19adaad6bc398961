@@ -1,0 +1,15 @@
+package com.crm.qa.base;
+
+public class TestBase {
+
+	static webDriver driver;
+	
+	public TestBase(){
+		
+	}
+	
+	
+	
+	
+	
+}

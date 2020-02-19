@@ -1,0 +1,10 @@
+package jenkinstest.jenkins;
+
+public class JenkinsTest {
+
+	public  void test1() {
+		// TODO Auto-generated method stub
+System.out.println("small test");
+	}
+
+}

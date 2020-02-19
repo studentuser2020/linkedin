@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.crm.qa.Testcases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.117 sec <<< FAILURE!
+login(com.crm.qa.Testcases.LoginPageTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:44)
+	at com.crm.qa.Testcases.LoginPageTest.login(LoginPageTest.java:35)
+
+validateLoginPageTitle(com.crm.qa.Testcases.LoginPageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.crm.qa.pages.LoginPage.validateLoginPageTitle(LoginPage.java:36)
+	at com.crm.qa.Testcases.LoginPageTest.validateLoginPageTitle(LoginPageTest.java:29)
+

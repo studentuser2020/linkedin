@@ -1,0 +1,20 @@
+package com.crm.qa.pages;
+
+import org.openqa.selenium.support.FindAll;
+
+import com.crm.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+
+	
+	//page factory
+	@FindBy(name="email");
+	WebElement username;
+	
+	driver.findElements(By.xpath("//div"));
+	
+	
+	
+	
+	
+}
